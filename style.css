@@ -1,0 +1,51 @@
+
+.timer{
+    /* position: absolute; */
+    width: 100%;
+    background-color: rgb(255, 0, 149);
+   text-align: center;
+ 
+   
+}
+#show{
+    color: white;
+    font-size: 50px;
+
+}
+#show2{
+    color: white;
+    font-size: 20px;
+ word-spacing: 20px;
+
+}
+
+.timer img{
+width: 100%;
+height: 400px;
+}
+
+h1{
+    margin-top: 0;
+    padding-top: 20px;
+    color: rgb(255, 208, 0);
+}
+p{
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    #show{
+       
+        font-size: 40px;
+    
+    }
+    #show2{
+        
+        font-size: 15px;
+     word-spacing: 18px;
+    
+    }
+    h1{
+      font-size: 25px;
+    }
+}
