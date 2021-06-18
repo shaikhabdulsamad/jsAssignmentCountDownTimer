@@ -10,13 +10,14 @@ var x = setInterval(function () {
     var sec = Math.floor((diff % (1000 * 60)) / 1000)
 
 
+document.getElementById('show').innerHTML = days + " : " + hours + " : " + mints + " : " + sec 
+document.getElementById('show2').innerHTML = "Days | Hours | Minutes | Seconds"
+ 
 
-    document.getElementById('show').innerHTML = days + " : " + hours + " : " + mints + " : " + sec 
-    document.getElementById('show2').innerHTML = "Days | Hours | Minutes | Seconds"
-     
     if (diff < 0) {
         clearInterval(x);
         document.getElementById('show').innerHTML = "EID MUBARAK!";
+        document.getElementById('show2').innerHTML = ""
     }
 }, 1000)
 

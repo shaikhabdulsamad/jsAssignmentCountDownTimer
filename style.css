@@ -1,11 +1,14 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
 
 .timer{
-    /* position: absolute; */
     width: 100%;
-    background-color: rgb(255, 0, 149);
+    background-color: rgb(238, 62, 129);
    text-align: center;
- 
-   
+ font-family: roboto;
+
 }
 #show{
     color: white;
@@ -16,7 +19,7 @@
     color: white;
     font-size: 15px;
  word-spacing: 18px;
- white-space: pre;
+ 
 
 }
 
@@ -49,4 +52,6 @@ p{
     h1{
       font-size: 25px;
     }
+
+    
 }
