@@ -12,7 +12,7 @@ var x = setInterval(function () {
 
 
     document.getElementById('show').innerHTML = days + " : " + hours + " : " + mints + " : " + sec 
-    document.getElementById('show2').innerHTML = "  Days | Hours | Minutes | Seconds"
+    document.getElementById('show2').innerHTML = "Days | Hours | Minutes | Seconds"
      
     if (diff < 0) {
         clearInterval(x);
